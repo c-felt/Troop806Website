@@ -1,7 +1,20 @@
+nav {
+
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    color: yellow;
+}
 h1 {
     color: red;
     background-color: blue;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 p {
