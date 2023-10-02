@@ -1,12 +1,32 @@
 nav {
-
-}
-nav ul {
+    background: rgb(241,222,225);
+    background: linear-gradient(90deg, rgba(241,222,225,1) 35%, rgba(217,167,176,1) 100%);
+  }
+  nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    display: block;
+    padding: .95rem 1rem .83rem 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+  /*   color: #D8d9da; */
+    color: #331c1c;
+    font-weight: 600;
+    text-transform: uppercase;
     text-align: center;
-}
-nav ul li a{
-    color: yellow;
-}
+    font-family: 'Open Sans', sans-serif;
+  }
+  nav .active a {
+    background-color: #d9a7b0;
+    color: #331c1c
+  }
+  nav a:hover {
+    background-color: #68a0a6;
+  }
 h1 {
     color: red;
     background-color: blue;
