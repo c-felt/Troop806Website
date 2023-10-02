@@ -4,7 +4,7 @@ nav {
 nav ul {
     text-align: center;
 }
-nav ul li {
+nav ul li a{
     color: yellow;
 }
 h1 {
